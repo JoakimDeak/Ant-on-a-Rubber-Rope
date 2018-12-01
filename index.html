@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ant on a Rubber Rope</title>
+</head>
+<body>
+
+    <script src="script.js"></script>
+
+    <div style="text-align: center; font-size: 40px;">
+        <h1>Ant on a Rubber Rope</h1>
+
+        <h5>Calculation might take some time</h5>
+
+        <label style="display: block;" for="length">Length of rope</label>
+        <input id="length" name="length" type="number">
+
+        <label style="display: block;" for="speed">Speed of ant</label>
+        <input id="speed" name="speed" type="number">
+
+        <label style="display: block;" for="stretch">Stretch speed of rope</label>
+        <input id="stretch" name="stretch" type="number">
+
+        <input style="display: block; margin: 10px auto auto; font-size: 20px;" onclick="run();" value="Run" type="button">
+
+        <h1 id="time"></h1>
+    </div>
+<!-- "I'm not going to do that much with css, I don't need a seperate file" Well that worked out great -_- -->
+</body>
+</html>
